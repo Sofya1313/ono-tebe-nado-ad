@@ -272,3 +272,16 @@
 .bet-button:active {
   opacity: 0.6;
 }
+
+.header__link:focus-visible,
+.lots__look-more-link:focus-visible,
+.footer__menu-link:focus-visible,
+.footer__social-list a:focus-visible {
+  outline: 2px solid currentcolor;
+  outline-offset: 4px;
+}
+
+.bet-button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
