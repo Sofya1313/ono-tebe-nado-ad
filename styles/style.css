@@ -20,7 +20,7 @@
 }
 
 .header__logo {
-  width: 148px;
+  width: 136px;
 }
 
 .header__logo-image {
@@ -46,8 +46,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 757px;
-  padding: 147px 50px 50px;
+  height: 760px;
+  padding: 155px 50px 50px;
   color: #ffffff;
   background-image: url("../images/cover.jpg");
   background-position: center;
@@ -194,7 +194,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  margin-top: 181px;
+  margin-top: 152px;
   padding: 0 24px;
 }
 
