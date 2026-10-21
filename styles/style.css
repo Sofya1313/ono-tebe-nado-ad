@@ -43,6 +43,9 @@
 .cover {
   position: relative;
   z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 757px;
   padding: 165px 50px 50px;
   color: #ffffff;
@@ -62,7 +65,7 @@
 .cover__title {
   font-size: 100px;
   font-weight: 700;
-  line-height: 115px;
+  line-height: 130px;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -84,7 +87,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  margin-top: 106px;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
