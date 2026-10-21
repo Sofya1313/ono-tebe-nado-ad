@@ -228,3 +228,47 @@
   font-size: 20px;
   line-height: 24px;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 180px 50px 90px;
+}
+
+.footer__address {
+  max-width: 240px;
+}
+
+.footer__menu {
+  justify-self: center;
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-self: end;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  width: 48px;
+}
+
+.bet-button:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.bet-button:active {
+  opacity: 0.6;
+}
